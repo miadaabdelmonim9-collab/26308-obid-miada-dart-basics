@@ -33,6 +33,17 @@ String initials(String fullName) {
   return result;
 }
 
+// by MAHO
+void drawTriangle(int height) {
+  int row = 1;
+  while (row <= height) {
+    String spaces = ' ' * (height - row);
+    String symbol = row % 2 == 1 ? '*' : '#';
+    print(spaces + symbol * row);
+    row++;
+  }
+}
+
 void main() {
   print('Reg no: $regNo | D = $d | T = $t');
 
@@ -43,4 +54,8 @@ void main() {
   print(initials(fullName));
   print(initials(' ana uwase '));
   print(initials(' '));
+
+  drawTriangle(d + 3);
+  drawTriangle(0);
+  drawTriangle(-2);
 }

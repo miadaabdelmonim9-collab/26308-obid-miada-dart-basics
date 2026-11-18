@@ -1,12 +1,17 @@
 # STATUS
 
 ## Done
-- README.md
-- Repository setup
+- README.md and repository setup
+- Personal numbers block in dart_basics.dart
+- B2: countVowels (tested and pushed)
+- B3: initials (tested and pushed)
+- C5: drawTriangle (tested and pushed)
+- D2: momoFee, maskPhone and receipt loop (tested and pushed)
 
 ## In progress
-- A1: predictions written, checking output
-- A2, B1, B2, B3, C1-C5, D1, D2: not started yet
+- answers.pdf: writing the trace answers and Part E
+- momo_sim.dart: Part F, not finished yet
+- Part G: debugging log
 
 ## Stuck on
-- Nothing yet
+- Nothing right now. I had a Git identity error and fixed it.
